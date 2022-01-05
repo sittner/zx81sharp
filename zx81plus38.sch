@@ -927,17 +927,6 @@ F 3 "~" H 12400 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x05_Female J3
-U 1 1 62EC09DF
-P 11550 5850
-F 0 "J3" H 11500 5550 50  0000 L CNN
-F 1 "KB1" H 11450 6150 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 11550 5850 50  0001 C CNN
-F 3 "~" H 11550 5850 50  0001 C CNN
-	1    11550 5850
-	1    0    0    1   
-$EndComp
-$Comp
 L Connector:Conn_01x08_Female J2
 U 1 1 62EC1FA2
 P 11650 5800
@@ -3631,17 +3620,6 @@ Text Label 22050 8200 0    50   ~ 0
 nROMCS
 Text Label 22050 8850 0    50   ~ 0
 nRAMCS
-$Comp
-L Connector:Conn_01x03_Male J1
-U 1 1 65AD007E
-P 11300 6750
-F 0 "J1" H 11408 7031 50  0000 C CNN
-F 1 "LED on" H 11408 6940 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 11300 6750 50  0001 C CNN
-F 3 "~" H 11300 6750 50  0001 C CNN
-	1    11300 6750
-	1    0    0    -1  
-$EndComp
 Connection ~ 9100 4450
 Entry Wire Line
 	9100 5250 9200 5350
@@ -3862,16 +3840,15 @@ F 3 "~" H 11700 6650 50  0001 C CNN
 	1    11700 6650
 	0    1    1    0   
 $EndComp
-NoConn ~ 11500 6750
 $Comp
 L power:GND #PWR0142
 U 1 1 667ED7F8
-P 11850 6850
-F 0 "#PWR0142" H 11850 6600 50  0001 C CNN
-F 1 "GND" V 11855 6722 50  0000 R CNN
-F 2 "" H 11850 6850 50  0001 C CNN
-F 3 "" H 11850 6850 50  0001 C CNN
-	1    11850 6850
+P 11850 6750
+F 0 "#PWR0142" H 11850 6500 50  0001 C CNN
+F 1 "GND" V 11855 6622 50  0000 R CNN
+F 2 "" H 11850 6750 50  0001 C CNN
+F 3 "" H 11850 6750 50  0001 C CNN
+	1    11850 6750
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -3886,7 +3863,7 @@ F 3 "" H 11850 6650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	11850 6850 11500 6850
+	11850 6750 11500 6750
 Wire Wire Line
 	11500 6650 11550 6650
 $Comp
@@ -6006,6 +5983,28 @@ Wire Wire Line
 	19050 5200 19050 5350
 Wire Wire Line
 	19050 6250 19050 6400
+$Comp
+L Connector:Conn_01x05_Female J3
+U 1 1 62EC09DF
+P 11550 5850
+F 0 "J3" H 11500 5550 50  0000 L CNN
+F 1 "KB1" H 11450 6150 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 11550 5850 50  0001 C CNN
+F 3 "~" H 11550 5850 50  0001 C CNN
+	1    11550 5850
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 61EF3C41
+P 11300 6650
+F 0 "J1" H 11408 6831 50  0000 C CNN
+F 1 "LED on" H 11408 6740 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11300 6650 50  0001 C CNN
+F 3 "~" H 11300 6650 50  0001 C CNN
+	1    11300 6650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	10900 2600 11300 2600
 Wire Wire Line
