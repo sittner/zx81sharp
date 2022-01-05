@@ -110,7 +110,7 @@ F 1 "47k" V 20234 4900 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 20280 4900 50  0001 C CNN
 F 3 "~" H 20350 4900 50  0001 C CNN
 	1    20350 4900
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R79
@@ -481,7 +481,7 @@ U 1 1 62E8AD27
 P 5950 2100
 F 0 "C5" H 6065 2146 50  0000 L CNN
 F 1 "1u" H 6065 2055 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 5988 1950 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 5988 1950 50  0001 C CNN
 F 3 "~" H 5950 2100 50  0001 C CNN
 	1    5950 2100
 	1    0    0    -1  
