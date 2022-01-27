@@ -4,6 +4,7 @@ This is essentially a redraw of Mahjongg's great [ZX81plus38](https://github.com
 I've done it to be able to fix and modify some issues:
 
 * fixed pinout of tape connectors CO2/CO3
+* fixed rotation/position of keyboard connector J3
 * fixed CPU clock phase
 * fixed position of connectors and mounting holes
 * replaced USB power connector with  2.1/2.5 mm power plug
